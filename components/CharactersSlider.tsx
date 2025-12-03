@@ -10,8 +10,13 @@ export default function CharactersSlider() {
     async function fetchCharacters() {
       const res = await fetch("/api/cards?category=characters");
       const data = await res.json();
-      console.log("Fetched cards:", data); // TEMP DEBUG
-      setCharacters(data);
+      console.log("Fetched characters:", data);
+      if (Array.isArray(data)) {
+        setCharacters(data);
+      } else {
+        console.error("Characters API returned non-array:", data);
+        setCharacters([]);
+      }
     }
 
     fetchCharacters();
