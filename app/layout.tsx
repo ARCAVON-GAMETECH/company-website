@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Chakra_Petch, Hanuman, Inter } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
+import {
+  Geist,
+  Geist_Mono,
+  Chakra_Petch,
+  Hanuman,
+  Inter,
+} from "next/font/google";
+import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,8 +44,9 @@ const bunkenTech = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ARCAVON - The Future of Warfare",
-  description: "Arcavon is a game-tech company building high-quality, story-driven games and tools.",
+  title: "ARCAVON - Beyond Games | Building Worlds & Communities",
+  description:
+    "Arcavon is a game-tech company building high-quality, story-driven games and tools.",
 };
 
 export default function RootLayout({
@@ -49,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${chakraPetch.variable} ${hanuman.variable} ${inter.variable} ${bunkenTech.variable} antialiased bg-black text-white`}
       >

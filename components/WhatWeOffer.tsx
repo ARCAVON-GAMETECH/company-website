@@ -30,7 +30,7 @@ export default function WhatWeOffer() {
                 {/* Header */}
                 <div className="flex justify-between items-center border-b border-white/10 pb-4 mb-16">
                     <h2 className="text-3xl md:text-4xl text-white font-bold tracking-wider font-[family-name:var(--font-hanuman)]">
-                        What We Offer ?
+                        What We Offer 
                     </h2>
                     <Link href="/services" className="text-[#00c2ff] text-xs md:text-sm flex items-center gap-2 hover:gap-3 transition-all uppercase tracking-widest font-[family-name:var(--font-chakra)]">
                         View More <ArrowRight className="w-4 h-4" />

@@ -1,15 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Michroma } from "next/font/google";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-const michroma = Michroma({
-    subsets: ["latin"],
-    weight: "400",
-    variable: "--font-michroma",
-});
 
 export default function OurGames() {
     return (

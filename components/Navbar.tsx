@@ -2,14 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Michroma } from "next/font/google";
 import { Menu, X } from "lucide-react";
 
-const michroma = Michroma({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-michroma",
-});
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
