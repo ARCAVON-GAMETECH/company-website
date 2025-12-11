@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function GamesPage() {
   return (
-    <main className="min-h-screen bg-black pt-24 pb-16 flex flex-col">
+    <main className="min-h-screen bg-black pt-36 pb-16 flex flex-col">
       <section className="px-6 md:px-12 max-w-7xl mx-auto flex-1 flex flex-col">
         {/* Title */}
         <motion.h1
@@ -23,7 +23,7 @@ export default function GamesPage() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex-1 flex items-center justify-center"
         >
-          <h2 className="text-4x1 md:text-6xl lg:text-7xl text-[#00c2ff] font-bold tracking-[0.2em] drop-shadow-[0_0_30px_rgba(0,194,255,0.5)] font-[family-name:var(--font-chakra)] animate-pulse">
+          <h2 className="text-3xl md:text-6xl lg:text-8xl text-[#00c2ff] font-bold tracking-[0.2em] leading-tight drop-shadow-[0_0_30px_rgba(0,194,255,0.5)] font-[family-name:var(--font-chakra)] animate-pulse text-center">
             COMING SOON !!
           </h2>
         </motion.div>
