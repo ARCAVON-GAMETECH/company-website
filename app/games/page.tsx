@@ -23,7 +23,7 @@ export default function GamesPage() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex-1 flex items-center justify-center"
         >
-          <h2 className="text-3.9x1 md:text-6xl lg:text-7xl text-[#00c2ff] font-bold tracking-[0.2em] drop-shadow-[0_0_30px_rgba(0,194,255,0.5)] font-[family-name:var(--font-chakra)] animate-pulse">
+          <h2 className="text-4x1 md:text-6xl lg:text-7xl text-[#00c2ff] font-bold tracking-[0.2em] drop-shadow-[0_0_30px_rgba(0,194,255,0.5)] font-[family-name:var(--font-chakra)] animate-pulse">
             COMING SOON !!
           </h2>
         </motion.div>
